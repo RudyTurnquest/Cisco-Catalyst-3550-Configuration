@@ -45,6 +45,11 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
 - Confirm on Switch that the two laptops are in the same VLAN
 
 # Takeaways
+I'm glad I purchased this switch. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
+I assumed the interface layout was horizontal but turns out, it goes vertically. Getting to use the console cable and Putty to connect to the switch was interesting.
+It felt liked I was actually on the job. When connecting to the switch via Putty, I did not know that 'Enter' had to be pressed to activate the console screen. Unfortunately,
+I ended up waiting for some time before pressing the enter key. Also on the switch, there's a autolock feature that (i dont recall) isnt in Packet Tracer. If inactive for 10 minutes, it locks.
+
 
 
 
