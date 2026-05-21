@@ -27,7 +27,7 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - Select 'Open'
   - _console window should open. Press enter key to start session_
 
-# Part 2 (Configure Switch)
+# Part 2 (Configure VLANs)
 - Name Switch and secure switch
 - Create VLANs
   - VLAN 10 - name = TEAM 1
@@ -39,10 +39,32 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - Ports 13 -18  - TEAM 3
 - Config trunk port on port 24
 
-# Part 3 (Test VLANs)
-- Connect 1 laptop to port 1 on switch 
-- Connect other laptop to port 2 on switch
-- Confirm on Switch that the two laptops are in the same VLAN
+# Part 3 (Configure SVIs)
+- In global config mode, enable ip routing
+- Create SVIs
+  - establish default gateways for VLANs
+  - VLAN 10  -  192.168.10.1
+  - VLAN 20  -  192.168.20.1
+  - VLAN 30  -  192.168.30.1
+
+# Part 4 (Test VLANs and SVIs)
+- Connect laptop 1 to fa0/1 on switch 
+- Connect laptop 2 to fa0/12 on switch
+- View mac address table
+  - To confirm the switch recognizes the both laptops
+- View VLAN brief
+  - To confirm correct VLAN configuration
+- View IP Interface brief
+  - To confirm IP addresses are configured correctly on SVIs
+- On Laptop 1, change the IP settings:
+  - IP address        - 192.168.10.10
+  - Subnet            - 255.255.255.0
+  - Default Gateway   - 192.168.10.1
+  - DNS Server        - 8.8.8.8
+- *Important* Disable firewalls on both laptops
+- 
+
+
 
 # Takeaways
 I'm glad I purchased this switch. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
