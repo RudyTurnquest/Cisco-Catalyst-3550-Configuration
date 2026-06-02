@@ -62,7 +62,11 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - Default Gateway   - 192.168.10.1
   - DNS Server        - 8.8.8.8
 - *Important* Disable firewalls on both laptops
-- 
+- On Laptop 2, change the IP settings:
+  - IP address        - 192.168.20.10
+  - Subnet            - 255.255.255.0
+  - Default Gateway   - 192.168.20.1
+  - DNS Server        - 8.8.8.8
 
 
 
