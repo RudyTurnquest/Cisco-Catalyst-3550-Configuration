@@ -80,6 +80,48 @@ It felt liked I was actually on the job. When connecting to the switch via Putty
 I ended up waiting for some time before actually pressing the enter key. Also on the switch, there's a autolock feature that (i dont recall) isnt in Packet Tracer. If inactive for 10 minutes, it locks. Configuring the device was straight forward
 but came to a full stop when I could not ping the PCs. After doing some extensive troubleshooting, I discoverd that the firewalls (on both PCs) needed to be disabled. It was a exciting experience and I look forward to doing more labs with this switch.
 
+# Images
+
+1. Switch
+<img width="1388" height="1851" alt="Switch" src="https://github.com/user-attachments/assets/b6f392cd-72ae-449b-9118-daca7cdf33f8" />
+
+2. Equipment
+<img width="1452" height="1936" alt="Equipment" src="https://github.com/user-attachments/assets/e5cd4ade-4603-4c71-b459-298446a9ecff" />
+
+3. VLAN Configuration
+<img width="944" height="632" alt="VLAN config" src="https://github.com/user-attachments/assets/93b1f231-b287-4a70-bb84-e8a637b88245" />
+
+4. SVI Configuration
+<img width="803" height="586" alt="SVI config" src="https://github.com/user-attachments/assets/83de6557-ba58-4d19-ae4c-1219c1d8286f" />
+
+5. Verify the Switch sees the PCs
+<img width="816" height="588" alt="Mac address confirm" src="https://github.com/user-attachments/assets/4c2b9cc1-ffd3-4b51-a81d-9e3e8eda85fe" />
+
+6. Ping PC2 from PC1
+<img width="3024" height="4032" alt="Ping Test 1" src="https://github.com/user-attachments/assets/dea4cc5d-200f-4d4f-b0c8-7b9b78367bb0" />
+
+7. Ping PC1 from PC2
+<img width="3024" height="4032" alt="Ping Test 2" src="https://github.com/user-attachments/assets/3f17f9e1-a038-4c11-9852-b5df11d82280" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
