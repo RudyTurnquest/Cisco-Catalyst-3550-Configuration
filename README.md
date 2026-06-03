@@ -33,7 +33,7 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - VLAN 10 - name = TEAM 1
   - VLAN 20 - name = TEAM 2
   - VLAN 30 - name = TEAM 3
-- Assign VALNs to Interfaces
+- Assign VLANs to Interfaces
   - Ports 1 - 6   - TEAM 1
   - Ports 7 - 12  - TEAM 2
   - Ports 13 -18  - TEAM 3
@@ -61,13 +61,16 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - Subnet            - 255.255.255.0
   - Default Gateway   - 192.168.10.1
   - DNS Server        - 8.8.8.8
-- *Important* Disable firewalls on both laptops
 - On Laptop 2, change the IP settings:
   - IP address        - 192.168.20.10
   - Subnet            - 255.255.255.0
   - Default Gateway   - 192.168.20.1
   - DNS Server        - 8.8.8.8
-
+- *Important* Disable firewalls on both laptops
+- From PC1, Ping PC2's gateway
+- From PC1, Ping PC2
+- From PC2. Ping PC1's gateway
+- From PC2, Ping PC1
 
 
 # Takeaways
