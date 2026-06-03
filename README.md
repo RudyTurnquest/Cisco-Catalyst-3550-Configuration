@@ -22,7 +22,7 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - _(COM3) may be different depending on the device__
 - Open "Putty App" on Laptop
   - Select "Serial" for Connection Type
-  - Confirm the 'serial line fiel'd matches the 'USB serial port'
+  - Confirm the 'serial line field matches the 'USB serial port'
   - _leave other settings as is. speed should be at 9600_
   - Select 'Open'
   - _console window should open. Press enter key to start session_
@@ -74,11 +74,11 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
 
 
 # Takeaways
-I'm glad I purchased the Cisco 3550 as a project to help me prepare for the CCNA and get also get shands on experience. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
+I'm glad I purchased the Cisco 3550 as a project to help me prepare for the CCNA and get also get hands on experience. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
 I assumed the interface layout was horizontal but turns out, it goes vertically. Getting to use the console cable and Putty to connect to the switch was interesting.
 It felt liked I was actually on the job. When connecting to the switch via Putty, I did not know that 'Enter' had to be pressed to activate the console screen. Unfortunately,
-I ended up waiting for some time before actually pressing the enter key. Also on the switch, there's a autolock feature that (i dont recall) isnt in Packet Tracer. If inactive for 10 minutes, it locks. Configuring the device was straight forward
-but came to a full stop when I could not ping the PCs. After doing some extensive troubleshooting, I discoverd that the firewalls (on both PCs) needed to be disabled. It was a exciting experience and I look forward to doing more labs with this switch.
+I ended up waiting for some time before actually pressing the enter key. Also on the switch, there's a auto-lock feature that (i don't recall) isn't in Packet Tracer. If inactive for 10 minutes, it locks. Configuring the device was straight forward
+but came to a full stop when I could not ping the PCs. After doing some extensive troubleshooting, I discovered that the firewalls (on both PCs) needed to be disabled. It was a exciting experience and I look forward to doing more labs with this switch.
 
 # Images
 
