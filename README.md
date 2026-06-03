@@ -66,7 +66,7 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
   - Subnet            - 255.255.255.0
   - Default Gateway   - 192.168.20.1
   - DNS Server        - 8.8.8.8
-- *Important* Disable firewalls on both laptops
+- *IMPORTANT* Disable firewalls on both laptops
 - From PC1, Ping PC2's gateway
 - From PC1, Ping PC2
 - From PC2. Ping PC1's gateway
@@ -74,10 +74,12 @@ Configure a Cisco Catalyst 3550 switch and VLAN implementation
 
 
 # Takeaways
-I'm glad I purchased this switch. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
+I'm glad I purchased the Cisco 3550 as a project to help me prepare for the CCNA and get also get shands on experience. There are just some things a virtual lab doesn't teach. One example is understanding the physical interface layout. 
 I assumed the interface layout was horizontal but turns out, it goes vertically. Getting to use the console cable and Putty to connect to the switch was interesting.
 It felt liked I was actually on the job. When connecting to the switch via Putty, I did not know that 'Enter' had to be pressed to activate the console screen. Unfortunately,
-I ended up waiting for some time before pressing the enter key. Also on the switch, there's a autolock feature that (i dont recall) isnt in Packet Tracer. If inactive for 10 minutes, it locks.
+I ended up waiting for some time before actually pressing the enter key. Also on the switch, there's a autolock feature that (i dont recall) isnt in Packet Tracer. If inactive for 10 minutes, it locks. Configuring the device was straight forward
+but came to a full stop when I could not ping the PCs. After doing some extensive troubleshooting, I discoverd that the firewalls (on both PCs) needed to be disabled. It was a exciting experience and I look forward to doing more labs with this switch.
+
 
 
 
